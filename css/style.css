@@ -1,5 +1,19 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+body {
+  margin: 10px;
 }
+
+.content{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 200px;
+  background-color: #fff;
+  text-align: justify;
+  margin: auto;
+  }
+
+.text{
+  margin: 550px 10px 10px 50px;
+  width: 250%;
+  
+}
+
