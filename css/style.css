@@ -8,13 +8,13 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-
+/*Footer*/
 .footer {
   margin: 30px 0 20px 0;
   background: #232f3e;
   color: #fff;
 }
-
+/*Phones and Prices*/
 .prices {
   padding: 0 20px;
   display: flex;
@@ -22,12 +22,12 @@ body {
   color: #fff;
   align-items: center;
 }
-
+/*Subscription*/
 .deals {
   display: flex;
   align-items: center;
 }
-
+/*Phones and Prices*/
 .phones {
   background: #030118;
   padding: 40px 20px;
@@ -35,7 +35,7 @@ body {
   margin-bottom: 30px;
   text-align: center;
 }
-
+/*View all*/
 .view {
   display: flex;
   align-items: center;
@@ -47,7 +47,7 @@ body {
   margin-right: 10px;
   color: #ffb03a;
 }
-
+/*Subscription*/
 .deals {
   display: flex;
   align-items: center;
@@ -58,7 +58,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 6px;
 }
-
+/*Form group*/
 .forms {
   display: flex;
   justify-content: center;
@@ -78,7 +78,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
-
+/*Subscribe button*/
 .btn {
   font-family: "Roboto", sans-serif;
   border: 2px solid #02041b;
@@ -104,13 +104,13 @@ body {
 .contain-p {
   margin-bottom: 100px;
 }
-
+/*Navigation Columns*/
 .nav-columns {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-left: 50px;
 }
-
+/*Links, Info and Customer's Support*/
 .nav-col {
   border-right: 1px solid #3e4855;
   padding-left: 25px;
@@ -134,7 +134,7 @@ body {
 .footer-img-2 {
   width: 30px;
 }
-
+/*Whatsapp*/
 .footer-img-whatsapp {
   width: 20px;
   margin-left: 8px;
@@ -165,7 +165,7 @@ body {
 .footer-link:active {
   color: #ffb03a;
 }
-
+/*Social images*/
 .social-images {
   display: flex;
   flex-direction: column;
@@ -193,7 +193,7 @@ body {
   width: 25px;
   margin-right: 0;
 }
-
+/*Copyright*/
 .copyright {
   display: flex;
   justify-content: flex-end;
@@ -202,17 +202,19 @@ body {
   padding-top: 50px;
 }
 
+
+/*Media query*/
 @media (max-width: 63em) {
   .deals {
     flex-direction: column;
     margin-left: 100px;
   }
-
+/*Subscription*/
   .newsletter {
     text-align: center;
     margin-bottom: 20px;
   }
-
+/*Subscription*/
   .forms {
     margin-left: 0;
   }
