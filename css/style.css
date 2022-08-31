@@ -2,18 +2,22 @@ body {
   margin: 10px;
 }
 
-.content{
+.container{
   display: grid;
-  grid-template-columns: 100px 100px 100px;
-  grid-gap: 200px;
+  grid-template-columns: 15rem 15rem 15rem;
+  grid-gap: 17rem;
   background-color: #fff;
-  text-align: justify;
+  text-align: center;
   margin: auto;
   }
 
-.text{
-  margin: 550px 10px 10px 50px;
-  width: 250%;
-  
+.section3{
+  margin: auto;
+  padding: 0.5rem;
 }
 
+.section3 p{
+  margin: auto;
+  padding: 0.5rem;
+  font-family: Arial Montserrat;
+}
