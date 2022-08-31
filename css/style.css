@@ -1,5 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.footer {
+  margin: 30px 0 20px 0;
+  background: #232f3e;
+  color: #fff;
+}
+
+.prices {
+  padding: 0 20px;
+  display: flex;
+  background-color: #0d53db;
+  color: #fff;
+  align-items: center;
+}
+
+.deals {
+  display: flex;
+  align-items: center;
+}
+
+.phones {
+  background: #030118;
+  padding: 40px 20px;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.view p {
+  margin-right: 10px;
+  color: #ffb03a;
+}
+
+.deals {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.newsletter h2 {
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.forms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.form-group input {
+  padding: 14px 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  border: 2px solid #02041b;
+  margin-left: 20px;
+  background: #02041b;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 24px;
+  border-radius: 9px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: none;
+  color: #000;
+}
+
+.contain {
+  padding: 20px;
+}
+
+.contain-p {
+  margin-bottom: 100px;
+}
+
+.nav-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 50px;
+}
+
+.nav-col {
+  border-right: 1px solid #3e4855;
+  padding-left: 25px;
+}
+
+.nav-col:last-child {
+  border-right: none;
+}
+
+.nav-col .footer-heading {
+  text-transform: uppercase;
+  color: #ffb03a;
+  margin-bottom: 20px;
+}
+
+.footer-img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+.footer-img-2 {
+  width: 30px;
+}
+
+.footer-img-whatsapp {
+  width: 20px;
+  margin-left: 8px;
+}
+
+.footer-image-text {
+  display: flex;
+  align-items: center;
+}
+
+.footer-nav {
+  list-style: none;
+}
+
+.footer-nav li {
+  margin-bottom: 20px;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s;
+  color: #fff;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #ffb03a;
+}
+
+.social-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-images-p {
+  color: #ffb03a;
+  margin-top: 30px;
+}
+
+.social-image {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.social-img {
+  width: 28px;
+  margin-right: 18px;
+}
+
+.social-img-2 {
+  width: 25px;
+  margin-right: 0;
+}
+
+.copyright {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+}
+
+@media (max-width: 63em) {
+  .deals {
+    flex-direction: column;
+    margin-left: 100px;
+  }
+
+  .newsletter {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .forms {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 54em) {
+  .deals {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 48em) {
+  .prices {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .phones {
+    width: 100%;
+  }
+
+  .deals {
+    margin-left: 0;
+    padding-bottom: 20px;
+  }
+
+  .contain-p {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .nav-columns {
+    grid-template-columns: 1fr;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .footer-image-text {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .nav-col {
+    margin-bottom: 30px;
+  }
+
+  .copyright {
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .social-images-p {
+    margin-top: 0;
+  }
+
+  .nav-col {
+    padding-left: 0;
+    border-right: none;
+  }
+
+  .nav-col:last-child {
+    margin-bottom: 0;
+  }
+
+  .copyright p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 30em) {
+  .form-group input {
+    width: 100%;
+  }
+
+  .prices {
+    padding: 0 10px;
+  }
+
+  .btn {
+    margin-left: 10px;
+  }
 }
