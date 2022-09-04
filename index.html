@@ -4,176 +4,55 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="icon" href="assets/togsphone-logo.svg" />
+    <title>TOGS Phones</title>
     <link rel="stylesheet" href="css/style.css" />
-    <title>TOGS phones</title>
   </head>
   <body>
-    <!--Footer-->
-    <footer class="footer">
-      <!--Phones, newsletters snd subscription-->
-      <div class="prices">
-        <!--Phones and Prices-->
-        <div class="phones">
-          <h2>Phones and prices</h2>
-          <div class="view">
-            <p>View All</p>
-            <img class="arrow-img" src="assets/double-arrow.png" alt="Arrow" />
+    <header>
+      <img class="logo" src="Assets/togsphone-logo.svg" alt="logo" />
+      <input
+        class="text-input"
+        type="text"
+        placeholder="Search for products, brands and categories....."
+      />
+
+      <div class="login-container">
+        <a href=""
+          ><img class="login" src="assets/header-login.png" alt=""
+        /></a>
+      </div>
+      <div class="cart-container">
+        <a href=""><img class="cart" src="assets/header-cart.png" alt="" /></a
+        ><span class="header-item">Items 0</span>
+      </div>
+    </header>
+    <main>
+      <div class="main1-container">
+        <div class="main1-navcon">
+          <div class="main-cat">
+            <p class="category"><strong>All Categories</strong></p>
+            <img
+              class="main1-cat-img"
+              src="assets/1-dropdown.png"
+              alt="dropdown"
+            />
           </div>
-        </div>
-         <!--Subscription for Newsletter-->
-        <div class="deals">
-          <div class="newsletter">
-            <h2>Get latest deals</h2>
-            <p>
-              Subscribe to our newsletter to get updates on our latest offers
-            </p>
-          </div>
-          <!--Form-->
-          <div class="forms">
-            <div class="form">
-              <form action="#">
-                <div class="form-group">
-                  <label for="email"></label>
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="Enter your email address"
-                  />
-                </div>
-              </form>
-            </div>
-            <!--Subscribe button-->
-            <button class="btn">Subscribe</button>
+          <div class="main1-navbar">
+            <p class="main1-home">Home</p>
+            <p class="main1-contact">Contact Us</p>
           </div>
         </div>
       </div>
-      <!--Write-ups-->
-      <div class="second-section">
-        <div class="contain">
-          <p class="contain-p">
-            Buy phones online in Nigeria from Nigeria's top online phone store.
-          </p>
-          <!--Nav Columns-->
-          <div class="nav-columns">
-            <!--Links-->
-            <nav class="nav-col">
-              <p class="footer-heading">Our Links</p>
-              <ul class="footer-nav">
-                <li><a class="footer-link" href="#">My Accounts</a></li>
-                <li><a class="footer-link" href="#">Wish List</a></li>
-                <li><a class="footer-link" href="#">Affiliates</a></li>
-                <li>
-                  <a class="footer-link" href="#">Privacy and Cookie Policy</a>
-                </li>
-              </ul>
-            </nav>
-            <!--Info-->
-            <nav class="nav-col">
-              <p class="footer-heading">More Info</p>
-              <ul class="footer-nav">
-                <li><a class="footer-link" href="#">Track Order</a></li>
-                <li><a class="footer-link" href="#">Buy Now Pay Later</a></li>
-                <li><a class="footer-link" href="#">Orders & Returns</a></li>
-                <li>
-                  <a class="footer-link" href="#">Gift Vouchers</a>
-                </li>
-              </ul>
-            </nav>
-            <!--Customer's Support-->
-            <nav class="nav-col">
-              <p class="footer-heading">Customer's Support</p>
-              <ul class="footer-nav">
-                <li>
-                  <div class="footer-image-text">
-                    <img
-                      class="footer-img"
-                      src="assets/location.svg"
-                      alt="Location"
-                    />
-                    <a class="footer-link" href="#">Contact Us</a>
-                  </div>
-                </li>
-                <li>
-                  <div class="footer-image-text">
-                    <img
-                      class="footer-img"
-                      src="assets/phone.svg"
-                      alt="Location"
-                    />
-                    <a class="footer-link" href="#">0812 685 5000</a>
-                    <img
-                      class="footer-img-whatsapp"
-                      src="assets/whatsapp.svg"
-                      alt="Location"
-                    />
-                  </div>
-                </li>
-                <!--Payment-->
-                <li>
-                  <a class="footer-link" href="#">PAYMENT</a>
-                  <br />
-                  <a class="footer-link" href="#">
-                    <img
-                      class="footer-img-2"
-                      src="assets/visa.svg"
-                      alt="Location"
-                    />
-                    <img
-                      class="footer-img-2"
-                      src="assets/mastercard.svg"
-                      alt="Location"
-                    />
-                    <img
-                      class="footer-img-2"
-                      src="assets/btc.svg"
-                      alt="Location"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
+      <div class="main1-image-cont">
+        <div class="main1-big-image">
+          <img class="main1-image1" src="assets/1-iphone13.png" alt="" />
         </div>
-        <!--Social Images-->
-        <div class="social-images">
-          <p class="social-images-p">FOLLOW US:</p>
-          <div class="social-image">
-            <a class="social-link" href="#">
-              <img
-                class="social-img"
-                src="assets/instagram.svg"
-                alt="INSTAGRAM"
-              />
-            </a>
-
-            <a class="social-link" href="#">
-              <img class="social-img" src="assets/twitter.svg" alt="TWITTER" />
-            </a>
-
-            <a class="social-link" href="#">
-              <img
-                class="social-img-2"
-                src="assets/facebook.svg"
-                alt="FACEBOOK"
-              />
-            </a>
-          </div>
-        </div>
-        <!--Copyright-->
-        <div class="copyright">
-          <p>Copyright © 2022 Togsphones.com. All rights reserved.</p>
+        <div class="main1-small-images">
+          <img class="main-images" src="assets/1-xiaomi12pro.png" alt="">
+          <img class="main-images" src="assets/1-badge.png" alt="">
         </div>
       </div>
-    </footer>
+    </main>
+    <footer></footer>
   </body>
 </html>

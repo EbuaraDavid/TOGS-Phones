@@ -1,301 +1,124 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-}
-/*Footer*/
-.footer {
-  margin: 30px 0 20px 0;
-  background: #232f3e;
-  color: #fff;
-}
-/*Phones and Prices*/
-.prices {
-  padding: 0 20px;
+header{
   display: flex;
-  background-color: #0d53db;
-  color: #fff;
-  align-items: center;
+  width: 100%;
+  height: 100px;
 }
-/*Subscription*/
-.deals {
-  display: flex;
-  align-items: center;
+
+.logo{
+  width: 307px;
+  height: 208px;
+  margin: 0 30px 0 26px;
 }
-/*Phones and Prices*/
-.phones {
-  background: #030118;
-  padding: 40px 20px;
-  margin-top: -10px;
-  margin-bottom: 30px;
+
+.text-input{
+  width: 800px;
+  height: 88px;
+  margin-top: 53px;
+  border-radius: 16px;
+  border: 11px solid #000000
+}
+
+.login-container{
+  width: 108px;
+  height: 69px;
+  border-radius: 16px;
+  background-color: #142b6f;
+  margin-top: 62px;
+  margin-left: 20px;
+  /* justify-content: center; */
+  /* align-items: center;  */
   text-align: center;
 }
-/*View all*/
-.view {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
+
+.login{
+  height: 50px;
+  width: 50px;
+  padding-top: 10px;
 }
 
-.view p {
-  margin-right: 10px;
-  color: #ffb03a;
-}
-/*Subscription*/
-.deals {
-  display: flex;
-  align-items: center;
-  margin-left: 50px;
-}
-
-.newsletter h2 {
-  text-transform: uppercase;
-  margin-bottom: 6px;
-}
-/*Form group*/
-.forms {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 50px;
-}
-
-.form-group input {
-  padding: 14px 10px;
-  width: 300px;
-  border-radius: 5px;
-  border: none;
-  outline: none;
-}
-
-::placeholder {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-}
-/*Subscribe button*/
-.btn {
-  font-family: "Roboto", sans-serif;
-  border: 2px solid #02041b;
+.cart-container{
+  width: 164px;
+  height: 66px;
+  border-radius: 16px;
+  background-color: #142b6f;
+  margin-top: 66px;
   margin-left: 20px;
-  background: #02041b;
-  color: #fff;
-  font-weight: bold;
-  font-size: 16px;
-  padding: 10px 24px;
-  border-radius: 9px;
-  transition: all 0.3s ease;
+}
+.cart{
+  width: 40px;
+  height: 45px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
-.btn:hover {
-  background: none;
-  color: #000;
+.header-item{
+  color: #ffffff;
+  padding-bottom: 50px;
+  padding-left: 20px;
 }
 
-.contain {
-  padding: 20px;
-}
-
-.contain-p {
-  margin-bottom: 100px;
-}
-/*Navigation Columns*/
-.nav-columns {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-left: 50px;
-}
-/*Links, Info and Customer's Support*/
-.nav-col {
-  border-right: 1px solid #3e4855;
-  padding-left: 25px;
-}
-
-.nav-col:last-child {
-  border-right: none;
-}
-
-.nav-col .footer-heading {
-  text-transform: uppercase;
-  color: #ffb03a;
-  margin-bottom: 20px;
-}
-
-.footer-img {
-  width: 20px;
-  margin-right: 8px;
-}
-
-.footer-img-2 {
-  width: 30px;
-}
-/*Whatsapp*/
-.footer-img-whatsapp {
-  width: 20px;
-  margin-left: 8px;
-}
-
-.footer-image-text {
+.main1-navcon{
+  position: relative;
   display: flex;
+  margin: 100px 0 0 0;
+  justify-content: space-between;
   align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: #142b6f;
+  border-top: 7px solid #ffb03a;
+  border-bottom: 3px solid #ffffff;
 }
 
-.footer-nav {
-  list-style: none;
-}
-
-.footer-nav li {
-  margin-bottom: 20px;
-}
-
-.footer-link:link,
-.footer-link:visited {
-  cursor: pointer;
-  text-decoration: none;
-  transition: all 0.3s;
-  color: #fff;
-}
-
-.footer-link:hover,
-.footer-link:active {
-  color: #ffb03a;
-}
-/*Social images*/
-.social-images {
+.main-cat{
+  position: relative;
+  background: #142b6f;
   display: flex;
-  flex-direction: column;
+  height: 80px;
+  width: 200px;
+  margin-top: -20px;
+  margin-left: 20px;
   align-items: center;
   justify-content: center;
 }
-
-.social-images-p {
-  color: #ffb03a;
-  margin-top: 30px;
+.main1-cat-img{
+  position: absolute;
+  bottom: 12px;
+  right: 30px;
+  width: 25px;
+  height: 25px;
+  /* padding-top: 20px; */
 }
-
-.social-image {
+  
+.category{
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  color: #ffffff;
+  font-size: 18px;
+  /* padding-top: 50px; */
+}
+.main1-navbar{
+  position: absolute;
+  left: 300px;
   display: flex;
   align-items: center;
-  margin-top: 15px;
+  justify-content: space-between;
+  color: #ffffff;
+  font-size: 18px;
 }
-
-.social-img {
-  width: 28px;
-  margin-right: 18px;
+.main1-home{
+  padding-right: 30px;
+  border-right: 1px solid #ffffff;
 }
-
-.social-img-2 {
-  width: 25px;
-  margin-right: 0;
-}
-/*Copyright*/
-.copyright {
-  display: flex;
-  justify-content: flex-end;
-  padding-bottom: 20px;
-  padding-right: 20px;
-  padding-top: 50px;
-}
-
-
-/*Media query*/
-@media (max-width: 63em) {
-  .deals {
-    flex-direction: column;
-    margin-left: 100px;
-  }
-/*Subscription*/
-  .newsletter {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-/*Subscription*/
-  .forms {
-    margin-left: 0;
-  }
-}
-
-@media (max-width: 54em) {
-  .deals {
-    margin-left: 50px;
-  }
-}
-
-@media (max-width: 48em) {
-  .prices {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .phones {
-    width: 100%;
-  }
-
-  .deals {
-    margin-left: 0;
-    padding-bottom: 20px;
-  }
-
-  .contain-p {
-    text-align: center;
-    margin-bottom: 50px;
-  }
-
-  .nav-columns {
-    grid-template-columns: 1fr;
-    margin-left: 0;
-    text-align: center;
-  }
-
-  .footer-image-text {
-    text-align: center;
-    justify-content: center;
-  }
-
-  .nav-col {
-    margin-bottom: 30px;
-  }
-
-  .copyright {
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-  }
-
-  .social-images-p {
-    margin-top: 0;
-  }
-
-  .nav-col {
-    padding-left: 0;
-    border-right: none;
-  }
-
-  .nav-col:last-child {
-    margin-bottom: 0;
-  }
-
-  .copyright p {
-    text-align: center;
-  }
-}
-
-@media (max-width: 30em) {
-  .form-group input {
-    width: 100%;
-  }
-
-  .prices {
-    padding: 0 10px;
-  }
-
-  .btn {
-    margin-left: 10px;
-  }
+.main1-contact{
+  padding-left: 30px;
 }
