@@ -5,120 +5,169 @@
   text-decoration: none;
   list-style-type: none;
 }
-
-header{
+/* Header*/
+header {
   display: flex;
   width: 100%;
   height: 100px;
 }
-
-.logo{
+/* Logo */
+.logo {
   width: 307px;
   height: 208px;
   margin: 0 30px 0 26px;
 }
-
-.text-input{
-  width: 800px;
-  height: 88px;
-  margin-top: 53px;
-  border-radius: 16px;
-  border: 11px solid #000000
+/* Text field */
+.text-input {
+  border: none;
+  margin-left: 10px;
+  width: 500px;
 }
-
-.login-container{
+/* Input and search area */
+.input-search{
+  display: flex;
+  position: relative;
+  margin-top: 54px;
+  margin-left: 80px;
+  width: 732px;
+  height: 53px;
+  border: 2px solid #000000;
+  border-radius: 8px;
+}
+.search{
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  right: 10px;
+  margin-top: 20px;
+  color: #ffb03a;
+}
+/* Search icon area */
+.search-area{
+  width: 60px;
+  height: 50px;
+  background: #ffb03a;
+  position: absolute;
+  right: 0;
+  border-radius: 8px;
+}
+/* Login container */
+.login-container {
   width: 108px;
   height: 69px;
   border-radius: 16px;
   background-color: #142b6f;
-  margin-top: 62px;
-  margin-left: 20px;
+  margin-top: 43px;
+  margin-left: 27px;
+  margin-right: 8px;
   /* justify-content: center; */
   /* align-items: center;  */
   text-align: center;
 }
 
-.login{
+.login {
   height: 50px;
   width: 50px;
   padding-top: 10px;
 }
-
-.cart-container{
+/* Cart container */
+.cart-container {
+  position: relative;
   width: 164px;
   height: 66px;
   border-radius: 16px;
   background-color: #142b6f;
-  margin-top: 66px;
-  margin-left: 20px;
+  margin-top: 43px;
+  
 }
-.cart{
+.cart {
   width: 40px;
   height: 45px;
-  padding-top: 10px;
+  padding-top: 13px;
   padding-left: 10px;
 }
-
-.header-item{
+/* Write-ups on Cart */
+.header-item {
   color: #ffffff;
-  padding-bottom: 50px;
-  padding-left: 20px;
+  padding-bottom: 100px;
+  padding-left: 8px;
+  position: absolute;
+  top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
 }
-
-.main1-navcon{
-  position: relative;
-  display: flex;
-  margin: 100px 0 0 0;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 80px;
-  background-color: #142b6f;
-  border-top: 7px solid #ffb03a;
-  border-bottom: 3px solid #ffffff;
-}
-
-.main-cat{
-  position: relative;
-  background: #142b6f;
-  display: flex;
-  height: 80px;
-  width: 200px;
-  margin-top: -20px;
-  margin-left: 20px;
-  align-items: center;
+/* Main container */
+.main-container {
+  background: #0b2265;
+  width: 1512px;
+  height: 842px;
+  margin-top: 100px;
   justify-content: center;
-}
-.main1-cat-img{
-  position: absolute;
-  bottom: 12px;
-  right: 30px;
-  width: 25px;
-  height: 25px;
-  /* padding-top: 20px; */
-}
-  
-.category{
-  position: absolute;
-  bottom: 15px;
-  left: 20px;
-  color: #ffffff;
-  font-size: 18px;
-  /* padding-top: 50px; */
-}
-.main1-navbar{
-  position: absolute;
-  left: 300px;
-  display: flex;
   align-items: center;
-  justify-content: space-between;
+  text-align: center;
+}
+/* Navbar */
+.main-nav-item {
+  display: flex;
   color: #ffffff;
-  font-size: 18px;
 }
-.main1-home{
-  padding-right: 30px;
-  border-right: 1px solid #ffffff;
+/* Category section */
+.main-cat {
+  background: #0a1535;
+  display: flex;
+  width: 303px;
+  height: 77px;
+  color: #ffffff;
+  align-items: center;
+  margin-left: 64px;
 }
-.main1-contact{
-  padding-left: 30px;
+/* Dropdown arrow */
+.main-dropdown {
+  width: 46px;
+  height: 47px;
 }
+.all-categories {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+.main-navbar {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  align-items: center;
+}
+.home {
+  padding-right: 82px;
+  padding-left: 46px;
+}
+/* Main Images */
+.main1-images{
+  display: flex;
+  border-top: 1px solid #ffffff;
+}
+/* iphone13 */
+.iphone13 {
+  width: 1031px;
+  height: 703px;
+  margin-left: 64px;
+}
+/* Xiaomi */
+.xiaomi{
+  width: 322px;
+  height: 371px;
+  margin-bottom: 10px;
+  margin-right: 78px;
+}
+/* Badge */
+.badge{
+  width: 322px;
+  height: 317px;
+  margin-right: 78px;
+
+}
+
