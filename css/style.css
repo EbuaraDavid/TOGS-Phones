@@ -1,3 +1,26 @@
+body {
+  margin: 10px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 15rem 15rem 15rem;
+  grid-gap: 17rem;
+  background-color: #fff;
+  text-align: center;
+  margin: auto;
+  }
+
+.section3{
+  margin: auto;
+  padding: 0.5rem;
+}
+
+.section3 p{
+  margin: auto;
+  padding: 0.5rem;
+  font-family: Arial Montserrat;
+}
 * {
   padding: 0;
   margin: 0;
@@ -169,7 +192,5 @@ header {
   width: 322px;
   height: 317px;
   margin-right: 78px;
-
 }
-
 /**************************End of Styling for Section-1***************************/
