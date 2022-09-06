@@ -13,9 +13,10 @@ header {
 }
 /* Logo */
 .logo {
-  width: 307px;
-  height: 208px;
-  margin: 0 30px 0 26px;
+  width: 280px; 
+  height: 180px; 
+  margin-bottom: 200px;
+  /* margin: 0 30px 200px 26px; */
 }
 /* Text field */
 .text-input {
@@ -102,7 +103,7 @@ header {
   background: #0b2265;
   width: 1512px;
   height: 842px;
-  margin-top: 100px;
+  margin-top: 68px;
   justify-content: center;
   align-items: center;
   text-align: center;
