@@ -291,6 +291,45 @@ header {
 }
 /**************************End of Styling for Section-1***************************/
 
+/*************************************Beginning of Section 4 Styling*************************************/
+.mainContainer {
+  /* height: 90vh; */
+  width: 100%;
+  /* margin: auto; */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #fff;
+}
+img {
+  width: 100%;
+  /* margin: 1rem; */
+}
+/* styles the content of the website*/
+.mainDescription {
+  font-size: 16px;
+  margin: 1rem 0 0 0;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#mainPara {
+  margin-bottom: 100px;
+  line-height: 1.5em;
+}
+
+@media (max-width: 960px) {
+  .img {
+    width: 95%;
+  }
+  .mainDescription {
+    font-size: 16px;
+    margin: 1rem;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+/*************************************End of Section 4 Styling*********************************************/
+
 /* FOOTER STYLINGS BEGIN HERE */
 .footer {
   margin: 30px 0 20px 0;
