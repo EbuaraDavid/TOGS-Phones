@@ -154,7 +154,6 @@ input::placeholder {
   width: 50px;
   padding-top: 10px;
 }
-<<<<<<< Updated upstream
 /* Cart container */
 .cart-container {
   position: relative;
@@ -195,7 +194,6 @@ input::placeholder {
 .main-nav-item {
   display: flex;
   color: #ffffff;
-=======
 .fa-angle-down {
   font-size: 10px;
   margin-left: 5px;
@@ -263,7 +261,6 @@ input::placeholder {
 .dropdown-content1 a {
   display: block; 
   color: #000000;
->>>>>>> Stashed changes
 }
 /* Category section */
 .main-cat {
@@ -325,7 +322,6 @@ input::placeholder {
   height: 703px;
   margin-left: 64px;
 }
-<<<<<<< Updated upstream
 /* Xiaomi */
 .xiaomi {
   width: 322px;
@@ -339,7 +335,6 @@ input::placeholder {
   height: 317px;
   margin-right: 78px;
 }
-=======
 /* Images Container */
 .sec1-img-container {
   background: #0b2265;
@@ -474,7 +469,6 @@ input::placeholder {
   }
 }
 
->>>>>>> Stashed changes
 .slide-2 {
   width: 80%;
   margin: auto;
