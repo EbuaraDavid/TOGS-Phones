@@ -32,6 +32,12 @@ header {
   display: flex;
   width: 100%;
   height: 100px;
+<<<<<<< Updated upstream
+=======
+  align-items: center;
+  justify-content: space-around;
+  background: #ffffff;
+>>>>>>> Stashed changes
 }
 /* Logo */
 .logo {
@@ -40,9 +46,35 @@ header {
   margin-bottom: 200px;
   /* margin: 0 30px 200px 26px; */
 }
+<<<<<<< Updated upstream
 /* Text field */
 .text-input {
   border: none;
+=======
+form {
+  background: #ffffff;
+  width: 35rem;
+  height: 55px;
+  display: flex;
+  border-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid black;
+}
+form input {
+  /* flex:1; */
+  border: none;
+  outline: none;
+  width: 35rem;
+  border-radius: inherit;
+}
+input::placeholder {
+  font-size: 18px;
+}
+.button {
+  background: #ffb03a;
+  padding: 10px 18px;
+>>>>>>> Stashed changes
   margin-left: 10px;
   width: 500px;
 }
@@ -50,6 +82,7 @@ header {
 .input-search {
   display: flex;
   position: relative;
+<<<<<<< Updated upstream
   margin-top: 54px;
   margin-left: 80px;
   width: 732px;
@@ -63,6 +96,34 @@ header {
   position: absolute;
   right: 10px;
   margin-top: 20px;
+=======
+  display: inline-block;
+} 
+.dropbtn {
+  position: relative;
+  background: #ffffff;
+  color: #ffffff;
+  border: none;
+  display: flex; 
+  cursor: pointer;
+}
+
+.dropbtn2 {
+  position: relative;
+  background: #ffffff;
+  color: #ffffff;
+  border: none;
+  display: flex;
+  cursor: pointer;
+}
+/* Login */
+.fa-user {
+  font-size: 20px;
+  margin-left: 10px;
+  color: #000000;
+}
+.fa-user:hover {
+>>>>>>> Stashed changes
   color: #ffb03a;
 }
 /* Search icon area */
@@ -93,6 +154,7 @@ header {
   width: 50px;
   padding-top: 10px;
 }
+<<<<<<< Updated upstream
 /* Cart container */
 .cart-container {
   position: relative;
@@ -133,6 +195,75 @@ header {
 .main-nav-item {
   display: flex;
   color: #ffffff;
+=======
+.fa-angle-down {
+  font-size: 10px;
+  margin-left: 5px;
+  color: #000000;
+}
+.fa-angle-down:hover {
+  color: #ffb03a;
+  transition: 0.3s;
+  font-size: 15px; 
+}
+/* Menu */
+.cat {
+  display: flex;
+  margin-left: 40px;
+  position: relative;
+  display: inline-block;
+}
+.cat-par {
+  color: #000000;
+  padding-top: 8px;
+}
+.cat-par:hover {
+  color: #ffb03a;
+}
+.dropbtn:hover {
+  color: #eee;
+}
+.dropbtn2:hover {
+  color: #eee;
+}
+/* Dropdown Menu contents */
+.dropdown-content1 {
+  display: none;
+  /* width: 100px; 
+  height: 100px;  */
+  position: absolute;
+  min-width: 220%;
+  left:-15px;
+  top: calc(100% + .8rem);
+  /* top: 30px; */
+  padding: 1rem;
+  line-height: 40px;
+  background: #ffffff;
+  border-radius: .25rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .6);
+}
+.dropdown-content2 {
+  display: none; 
+  /* width: 180px; */
+  /* height: 150px; */
+  position: absolute;
+  min-width: 300%;
+  left: -50px;
+  top: calc(100% + .5rem);
+  /* top: 30px; */
+  padding: 1rem;
+  line-height: 35px;
+  background: #ffffff;
+  border-radius: .25rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+}
+.drop-hover:hover {
+  background-color: #f2f8f8;
+}
+.dropdown-content1 a {
+  display: block; 
+  color: #000000;
+>>>>>>> Stashed changes
 }
 /* Category section */
 .main-cat {
@@ -144,6 +275,7 @@ header {
   align-items: center;
   margin-left: 64px;
 }
+<<<<<<< Updated upstream
 /* Dropdown arrow */
 .main-dropdown {
   width: 46px;
@@ -162,6 +294,21 @@ header {
   font-size: 30px;
   font-weight: 500;
   align-items: center;
+=======
+
+/* .show{
+  display: block;
+}
+.hide{
+  display: none;
+} */
+
+/* Parenthesis */
+.cart-par {
+  padding-left: 5px;
+  color: #000000;
+  font-size: 20px;
+>>>>>>> Stashed changes
 }
 .home {
   padding-right: 82px;
@@ -178,6 +325,7 @@ header {
   height: 703px;
   margin-left: 64px;
 }
+<<<<<<< Updated upstream
 /* Xiaomi */
 .xiaomi {
   width: 322px;
@@ -191,6 +339,142 @@ header {
   height: 317px;
   margin-right: 78px;
 }
+=======
+/* Images Container */
+.sec1-img-container {
+  background: #0b2265;
+  margin-top: 100px;
+  display: grid;
+  gap: 15px;
+  column-gap: 15px;
+  grid-template-areas: "a a a b" "a a a c";
+  width: 100%;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+/* Iphone13 */
+.big-img {
+  grid-area: a;
+  max-width: 100%;
+  min-height: 100%;
+  /* height: auto; */
+}
+/* Xiaomi12Pro */
+.small-img1 {
+  grid-area: b;
+  max-width: 100%;
+}
+/* Badge */
+.small-img2 {
+  grid-area: c;
+  max-width: 100%;
+}
+
+/* label{
+  display: none;
+}
+#check{
+  /* z-index: 3; */
+  /* display: none; */
+/* } */ */
+
+
+/* Media Query */
+@media (max-width:85rem){
+  header{
+    justify-content: center;
+  }
+}
+
+@media (max-width:77rem){
+  .button {
+    display: none;
+  }
+  form .fa-magnifying-glass{
+    cursor: pointer;
+  }
+  form{
+    width: 25rem;
+  }
+  form input{
+    width: 25rem;
+  }
+  input::placeholder {
+    font-size: 14px;
+  }
+  .fa-house, .account, .cat, .fa-cart-shopping{
+    margin-left: 20px;
+  }
+}
+
+
+
+@media (max-width: 56rem) {
+  form {
+    width: 300px;
+    height: 35px;
+  }
+  form input {
+    width: 300px;
+  }
+  input::placeholder {
+    font-size: 12px;
+  }
+  header{
+    justify-content: space-around;
+  }
+}
+
+/* Media Query */
+@media (max-width: 50rem) {
+  .button {
+    display: none;
+  }
+  
+  .cat{
+    display: none;
+  }
+  .home{
+    display: none;
+  }
+  input::placeholder {
+    font-size: 12px;
+  }
+  header{
+    justify-content: space-around;
+  }
+
+  .account {
+    margin-left: 10px;
+  }
+  .fa-cart-shopping{
+    margin-left: 10px;
+  }
+  /* .logo{
+    display: none;
+  } */
+  
+}
+
+@media (max-width: 40rem) {
+  form{
+    width: 250px;
+  }
+  form input{
+    width: 250px;
+  }
+  input::placeholder {
+    font-size: 8px;
+  }
+  .account {
+    margin-left: 10px;
+  }
+  .fa-cart-shopping{
+    margin-left: 10px;
+  }
+}
+
+>>>>>>> Stashed changes
 .slide-2 {
   width: 80%;
   margin: auto;
@@ -296,6 +580,10 @@ header {
   margin: 30px 0 20px 0;
   background: #232f3e;
   color: #fff;
+}
+
+.arrow-img{
+  width: 20px;
 }
 
 .prices {
