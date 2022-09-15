@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.gionee_content {
+  font-family: sans-serif;
+}
+.gionee_img img {
+  width: 100%;
+}
+.gionee_details p {
+  font-weight: bold;
+  font-size: 27px;
+  padding-bottom: 10px;
+}
+
+.star_rating {
+  font-size: large;
+  font-weight: 800;
+}
+p img {
+  width: 15px;
+}
+.star_rating {
+  display: inline;
+  font-weight: 100;
+  margin-left: 10px;
+}
+.gionee_price h2 {
+  display: inline;
+}
+.gionee_price select {
+  display: inline;
+  margin-left: 70px;
+  padding: 5px 10px;
+}
+.select {
+  margin: auto;
+  display: flex;
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+}
+.add_cart_hr {
+  position: absolute;
+  bottom: 10px;
+}
+
+.price1_hr{
+  margin-bottom: 1rem;
+}
+.price2_hr {
+  margin-top: 1rem;
+}
+.select button {
+  padding: 8px;
+  font-size: 30px;
+}
+.select input {
+ width: 40px;
+ text-align: center;
+ margin: 0 10px;
+ font-size: 30px;
+ border: none;
+ align-items: center;
+ justify-content: center;
+ border-bottom: 1px solid black;
+}
+#select_input {
+  display: inline-block;
+  padding: 10px;
+}
+.select_and_cart_button {
+  height: 200px;
+ position: relative;
+  
+}
+.gionee_cart {
+  display: flex;
+}
+.gionee_about {
+  width: 100%;
+  margin-top: 4em;
+}
+.similar_product {
+  display: flex;
+}
+
+.reviews h2 {
+  padding-top: 1rem;
+  padding-right: 1rem ;
+  padding-left: 1rem;
+}
+.neon {
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+}
+.reviews img {
+  width: 20px;
+}
+.john_img img {
+  width: 70px;
+  height: 70px;
+}
+.john_review {
+  padding-left: 1rem;
+}
+.John {
+  display: flex;
+  padding: 1rem;
+
+}
+
+
+.btn {
+  display: block;
+  border: none;
+  background: #d934b8;
+  background-image: -webkit-linear-gradient(top, #d934b8, #b82bb8);
+  background-image: -moz-linear-gradient(top, #d934b8, #b82bb8);
+  background-image: -ms-linear-gradient(top, #d934b8, #b82bb8);
+  background-image: -o-linear-gradient(top, #d934b8, #b82bb8);
+  background-image: linear-gradient(to bottom, #d934b8, #b82bb8);
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ce7ddb;
+  background-image: -webkit-linear-gradient(top, #ce7ddb, #c334d9);
+  background-image: -moz-linear-gradient(top, #ce7ddb, #c334d9);
+  background-image: -ms-linear-gradient(top, #ce7ddb, #c334d9);
+  background-image: -o-linear-gradient(top, #ce7ddb, #c334d9);
+  background-image: linear-gradient(to bottom, #ce7ddb, #c334d9);
+  text-decoration: none;
+}
+
+
+
+/**************** Large Devices *************/
+
+@media (min-width: 992px) {
+  
+}
+
+/********** Medium devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .neon {
+    width: 50%;
+    
+  }
+  
+}
+
+/********** Small devices only **********/
+
+@media (min-width: 0px) and (max-width: 767px) {
+.gionee_cart {
+  display: block;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+body {
+  overflow: none;
+}
+.similar_product {
+  display: block;
+  
+}
+.gionee_details {
+  padding: 1rem;
+}
+  
+}
