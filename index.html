@@ -22,57 +22,59 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
   </head>
   <body>
-     <!--------------------------------Section 1 Begins----------------------------------------->
+       <!--------------------------------Section 1 Begins----------------------------------------->
     <!--Header-->
-    <header>
-        <!--Logo-->
-        <a href=""> <img class="logo" src="assets/new-logo.svg" alt="" /></a>
-        <!--Form and Searchbar and Searchlogo-->
-        <div class="search">
-          <form action="">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input
-              type="text"
-              placeholder="Search for your products, brands categories"
-            />
-          </form>
-          <button class="button" type="submit">Search</button>
+    <!-- Header -->
+<header>
+    <!--Logo-->
+    <a href=""> <img class="logo" src="assets/new-logo.svg" alt="" /></a>
+    <!--Form and Searchbar and Searchlogo-->
+    <div class="search">
+      <form action="">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input
+          type="text"
+          placeholder="Search for your products, brands..."
+        />
+      </form>
+      <button class="button" type="submit">Search</button>
+    </div>
+    <!-- hamburger for mobile view -->
+   
+   <a class="home" href=""><i class="fa-solid fa-house"></i></i></a>
+   <!--Login and Sign up with Dropdown contents-->
+    <div class="account">
+      <div class="dropbtn">
+        <i class="fa-regular fa-user"></i>
+        <i class="fa-solid angle2 fa-angle-down"></i>
+      </div>
+      <div id="myDropdown1" class="dropdown-content1 ">
+            <a href="" class="drop-hover"><strong>Login</strong></a>
+            <a href="html-pages/signUp.html" class="drop-hover"><strong>Sign up</strong></a>
         </div>
-        <!--Home-->
-       <a href=""><i class="fa-solid fa-house"></i></i></a>
-       <!--Login and Sign up with Dropdown contents-->
-        <div class="account">
-          <button class="dropbtn">
-            <a href=""><i class="fa-regular fa-user"></i></a>
-            <a href="">
-            <a href=""><i class="fa-solid angle1 fa-angle-down"></i></a>
-          </button>
-          <div class="dropdown-content1">
-              <a href="" class="drop-hover"><strong>Login</strong></a>
-              <a href="html-pages/signUp.html" class="drop-hover"><strong>Sign up</strong></a>
-          </div>
-        </div>
-        <!--Menu nd menu-items-->
-        <div class="cat">
-          <button class="dropbtn">
-            <a href=""><strong><p class="cat-par">Menu</p></strong></a>
-            <a href=""><i class="fa-solid angle2 fa-angle-down"></i></a>
-          </button>
-          <div class="dropdown-content2">
-              <a href="#slide2" class="drop-hover"><strong>Online Phone Store</strong></a>
-              <a href="#slide3" class="drop-hover"><strong>Latest Phones</strong></a>
-              <a href="#contactt" class="drop-hover"><strong>Contact Us</strong></a>
-          </div>
-        </div>
-        <!--Cart and Parenthesis-->
-        <div class="cart">
-          <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-          <a href=""><strong class="cart-par"><span class="span-par">(</span>)</strong></a>
-        </div>
-      </header>
+    </div>
+    <!--Menu nd menu-items-->
+    <div class="cat">
+      <div class="dropbtn2">
+        <p class="cat-par"><strong>Menu</strong></p>
+        <i class="fa-solid angle2 fa-angle-down"></i>
+      </div>
+      <div id="myDropdown2" class="dropdown-content2 hide show">
+          <a href="#slide2" class="drop-hover"><strong>Online Phone Store</strong></a>
+          <a href="#slide3" class="drop-hover"><strong>Latest Phones</strong></a>
+          <a href="#contactt" class="drop-hover"><strong>Contact Us</strong></a>
+      </div>
+    </div>
+
+    <!--Cart and Parenthesis-->
+    <div class="cart">
+      <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+      <a href=""><strong class="cart-par"><span class="span-par">(</span>)</strong></a>
+    </div>
+  </div>
+  </header>
       <main>
         <!--Images-->
         <div class="sec1-img-container">
@@ -99,7 +101,7 @@
         <!-- Container holding Gionee M15 phone cards begins here -->
         <div class="new1">
             <div class="image1">
-                <img src="assets/2-gioneeM15.png" alt="Gionee M15" />
+                <img  class="imm" src="assets/2-gioneeM15.png" alt="Gionee M15" />
                 <div class="cartcontainer">
                     <div class="slide1cart">
                         <a href="#">Add to Cart</a>
@@ -118,7 +120,7 @@
           <!-- Container holding xiaomiRedmi10 phone card begins here -->
         <div class="new2">
             <div class="image2">
-                <img src="assets/1-xiaomiRedmi10.png" alt="xiaomiRedmi10" />
+                <img class="imm" src="assets/1-xiaomiRedmi10.png" alt="xiaomiRedmi10" />
                 <div class="cartcontainer">
                     <div class="slide1cart">
                         <a href="#">Add to Cart</a>
@@ -139,7 +141,7 @@
         <!-- Container holding infinixZeroX phone card begins here -->
         <div class="new3">
             <div class="image3">
-                <img src="assets/2-infinixZeroX.png" alt="infinixZeroX" />
+                <img  class="imm" src="assets/2-infinixZeroX.png" alt="infinixZeroX" />
                 <div class="cartcontainer">
                     <div class="slide1cart">
                         <a href="#">Add to Cart</a>
@@ -178,7 +180,7 @@
       <!-- Container holding iphone13 phone cards begins here -->
       <div class="new1">
           <div class="image1">
-              <img src="assets/3-iphone13.png" alt="iphone 13" />
+              <img  class="imm" src="assets/3-iphone13.png" alt="iphone 13" />
               <div class="cartcontainer">
                   <div class="slide1cart">
                       <a href="#">Add to Cart</a>
@@ -197,7 +199,7 @@
         <!-- Container holding samsungGalaxyS22 phone card begins here -->
       <div class="new2">
           <div class="image2">
-              <img src="assets/3-samsungGalaxyS22.png" alt="3-samsungGalaxyS22" />
+              <img  class="imm" src="assets/3-samsungGalaxyS22.png" alt="3-samsungGalaxyS22" />
               <div class="cartcontainer">
                   <div class="slide1cart">
                       <a href="#">Add to Cart</a>
@@ -217,7 +219,7 @@
       <!-- Container holding oppoA55 phone card begins here -->
       <div class="new3">
           <div class="image3">
-              <img src="Assets/3-oppoA55.png" alt="3-oppoA55" />
+              <img  class="imm" src="Assets/3-oppoA55.png" alt="3-oppoA55" />
               <div class="cartcontainer">
                   <div class="slide1cart">
                       <a href="#">Add to Cart</a>
@@ -245,7 +247,7 @@
       <!----------------------------beginning of section4-->
       <div class="mainDescription">
         <p id="mainPara">
-         <span class="bold">Togsphone:Home of mobile phones Online sales in Nigeria at best
+         <span class="bold">Togsphone: Home of mobile phones Online sales in Nigeria at best
             prices.</span>  <br />
           <br />
           Togsphone is a Nigeria online phone store that offers a superior
@@ -421,5 +423,6 @@
           <p>Copyright © 2022 Togsphones.com. All rights reserved.</p>
     </footer>
     <!-- FOOTER HTML ENDS HERE -->
+    <script src="js/script.js"></script>
   </body>
   </html>

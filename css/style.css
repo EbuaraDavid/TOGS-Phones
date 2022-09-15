@@ -10,7 +10,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* Header */
+/* Styling for header (Please, give your parent container the padding-top of 100px) */
 header {
   position: fixed;
   top: 0;
@@ -18,7 +18,7 @@ header {
   width: 100%;
   height: 100px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   background: #ffffff;
 }
 /* Logo */
@@ -33,7 +33,7 @@ header {
 }
 form {
   background: #ffffff;
-  width: 650px;
+  width: 35rem;
   height: 55px;
   display: flex;
   border-radius: 5px;
@@ -45,7 +45,7 @@ form input {
   /* flex:1; */
   border: none;
   outline: none;
-  width: 700px;
+  width: 35rem;
   border-radius: inherit;
 }
 input::placeholder {
@@ -86,16 +86,26 @@ form .fa-magnifying-glass {
 }
 .account {
   display: flex;
-  /* align-items: center; */
   margin-left: 40px;
   position: relative;
   display: inline-block;
 }
 .dropbtn {
+  position: relative;
   background: #ffffff;
   color: #ffffff;
   border: none;
   display: flex;
+  cursor: pointer;
+}
+
+.dropbtn2 {
+  position: relative;
+  background: #ffffff;
+  color: #ffffff;
+  border: none;
+  display: flex;
+  cursor: pointer;
 }
 /* Login */
 .fa-user {
@@ -140,35 +150,37 @@ form .fa-magnifying-glass {
   color: #ffb03a;
 }
 .dropbtn:hover {
-  color: #b2beb5;
+  color: #eee;
+}
+.dropbtn2:hover {
+  color: #eee;
 }
 /* Dropdown Menu contents */
 .dropdown-content1 {
   display: none;
-  width: 100px;
-  height: 100px;
   position: absolute;
+  min-width: 220%;
+  left: -15px;
+  top: calc(100% + 0.8rem);
   /* top: 30px; */
-  padding-left: 5px;
-  padding-top: 10px;
+  padding: 1rem;
   line-height: 40px;
   background: #ffffff;
-  border-radius: 5px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.6);
 }
 .dropdown-content2 {
   display: none;
-  width: 150px;
-  height: 150px;
   position: absolute;
+  min-width: 300%;
+  left: -50px;
+  top: calc(100% + 0.5rem);
   /* top: 30px; */
-  padding-left: 5px;
-  justify-content: center;
-  padding-top: 10px;
+  padding: 1rem;
   line-height: 35px;
   background: #ffffff;
-  border-radius: 5px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
 }
 .drop-hover:hover {
   background-color: #f2f8f8;
@@ -181,12 +193,7 @@ form .fa-magnifying-glass {
   display: block;
   color: #000000;
 }
-.account:hover .dropdown-content1 {
-  display: block;
-}
-.cat:hover .dropdown-content2 {
-  display: block;
-}
+
 /* Parenthesis */
 .cart-par {
   padding-left: 5px;
@@ -237,30 +244,98 @@ form .fa-magnifying-glass {
 }
 
 /* Media Query */
-@media (max-width: 43rem) {
-  form {
-    width: 550px;
-  }
-  form input {
-    width: 550px;
-  }
-  .sec1-img-container {
-    width: 680;
+/* Media Query 85rem*/
+@media (max-width: 85rem) {
+  header {
+    justify-content: center;
   }
 }
 
-/* Media Query */
-@media (max-width: 30rem) {
+/* Media Query 77rem*/
+@media (max-width: 77rem) {
   .button {
     display: none;
   }
+  form .fa-magnifying-glass {
+    cursor: pointer;
+  }
   form {
-    width: 450px;
-    height: 40px;
-    padding-bottom: 5px;
+    width: 25rem;
+  }
+  form input {
+    width: 25rem;
+  }
+  input::placeholder {
+    font-size: 14px;
+  }
+  .fa-house,
+  .account,
+  .cat,
+  .fa-cart-shopping {
+    margin-left: 20px;
+  }
+}
+
+/* Media Query 56rem*/
+@media (max-width: 56rem) {
+  form {
+    width: 300px;
+    height: 35px;
+  }
+  form input {
+    width: 300px;
   }
   input::placeholder {
     font-size: 12px;
+  }
+  header {
+    justify-content: space-around;
+  }
+}
+
+/* Media Query 50rem*/
+@media (max-width: 50rem) {
+  .button {
+    display: none;
+  }
+
+  .cat {
+    display: none;
+  }
+  .home {
+    display: none;
+  }
+  input::placeholder {
+    font-size: 12px;
+  }
+  header {
+    justify-content: space-around;
+  }
+
+  .account {
+    margin-left: 10px;
+  }
+  .fa-cart-shopping {
+    margin-left: 10px;
+  }
+}
+
+/* Media Query 40rem*/
+@media (max-width: 40rem) {
+  form {
+    width: 250px;
+  }
+  form input {
+    width: 250px;
+  }
+  input::placeholder {
+    font-size: 8px;
+  }
+  .account {
+    margin-left: 10px;
+  }
+  .fa-cart-shopping {
+    margin-left: 10px;
   }
 }
 
@@ -312,6 +387,12 @@ form .fa-magnifying-glass {
 .new2 img,
 .new3 img {
   width: 250px;
+}
+.imm {
+  margin-left: 10%;
+}
+.imm:hover {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 }
 .cartcontainer {
   display: flex;
@@ -366,6 +447,69 @@ form .fa-magnifying-glass {
   padding-top: 10px;
   margin: auto;
 }
+@media screen and (max-width: 63em) {
+  .slide-2 {
+    width: 90%;
+  }
+  .new1,
+  .new2,
+  .new3 {
+    background-color: #fff;
+    width: 98%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .new1 img,
+  .new2 img,
+  .new3 img {
+    width: 150px;
+  }
+  .image1,
+  .image2,
+  .image3 {
+    margin-left: 25%;
+  }
+  .new {
+    display: block;
+  }
+  .image1star img {
+    margin-top: 10px;
+    width: 14px;
+    /* padding-left: 3px; */
+  }
+  .image2star img,
+  .image3star img {
+    width: 11px;
+    /* margin-top: 10px; */
+  }
+  .new1 p,
+  .new2 p,
+  .new3 p {
+    width: 98%;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 14px;
+    padding-top: 10px;
+    margin: auto;
+  }
+  .cartcontainer {
+    width: 80%;
+    margin-left: 0px;
+  }
+  .slide2-heading {
+    padding-top: 0px;
+    display: block;
+  }
+  .slide2-mobilephones p {
+    font-size: 14px;
+  }
+  .para {
+    margin-bottom: 10px;
+  }
+  .slide2-tablet {
+    padding-top: 00px;
+  }
+}
 /**************************End of Styling for Section-1***************************/
 
 /*************************************Beginning of Section 4 Styling*************************************/
@@ -395,6 +539,8 @@ img {
 }
 .bold {
   font-weight: bold;
+  font-size: large;
+  text-indent: 50px;
 }
 
 @media (max-width: 960px) {
@@ -417,7 +563,9 @@ img {
   background: #232f3e;
   color: #fff;
 }
-
+.arrow-img {
+  width: 20px;
+}
 .prices {
   padding: 0 20px;
   display: flex;
@@ -624,6 +772,9 @@ img {
   .forms {
     margin-left: 0;
   }
+  form {
+    width: 100%;
+  }
 
   .nav-columns {
     margin-left: 0;
@@ -703,6 +854,9 @@ img {
 
 @media (max-width: 30em) {
   .form-group input {
+    width: 100%;
+  }
+  form {
     width: 100%;
   }
 
